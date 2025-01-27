@@ -2,12 +2,12 @@ from mysql.connector import pooling, Error
 import pymysql
 from dbutils.pooled_db import PooledDB
 
-HOST_NAME = "localhost"
+HOST_NAME = "127.0.0.1"
 DB_NAME = "db04"
 USER_NAME = "team04"
 USER_PASSWORD = "0004"
 # Local modifications
-# USER_NAME = "root"
+USER_NAME = "root"
 
 
 # Create the connection pool
@@ -34,8 +34,8 @@ def create_connection_pool(host_name, user_name, user_password, db_name, pool_na
             maxcached=10,
             maxconnections=20,
             blocking=False,
-            host='localhost',
-            user='team04',
+            host='127.0.0.1',
+            user='root',
             password='0004',
             database='db04',
             charset='utf8mb4'
