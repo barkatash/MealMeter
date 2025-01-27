@@ -1,0 +1,1 @@
+MealMeter, a nutrition-focused web application. The project involved processing large datasets using Python and Flask for backend data handling, while the frontend was developed using React and Node js.
