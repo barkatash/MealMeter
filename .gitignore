@@ -1,0 +1,7 @@
+mysql/
+node_modules/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+notes.txt

@@ -1,0 +1,71 @@
+SET GLOBAL local_infile = 1;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\Category.csv"
+INTO TABLE `db04`.`Category`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\Food_Beverages.csv"
+INTO TABLE `db04`.`Food_Beverages`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\Portions_Weights.csv"
+INTO TABLE `db04`.`Portions_Weights`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\Nutrients.csv"
+INTO TABLE `db04`.`Nutrients`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\Ingredients.csv"
+INTO TABLE `db04`.`Ingredients`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\Ingredients_Values.csv"
+INTO TABLE `db04`.`Ingredients_Values`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\FB_Ingredients.csv"
+INTO TABLE `db04`.`FB_Ingredients`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\FB_Values.csv"
+INTO TABLE `db04`.`FB_Values`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\RDI.csv"
+INTO TABLE `db04`.`RDI`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:\\Users\\97250\\barilan\\BIU-Workshop-in-DB-Project\\DB\\Data\\CSV\\Activities.csv"
+INTO TABLE `db04`.`Activities`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
